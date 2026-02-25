@@ -133,7 +133,7 @@ app.delete("/delete", async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 
-connectDb()
+connectdb()
   .then(() => {
     console.log("✅ Database Connected Successfully...");
 
