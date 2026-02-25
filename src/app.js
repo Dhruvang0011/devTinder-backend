@@ -131,12 +131,14 @@ app.delete("/delete", async (req, res) => {
 });
 
 
-connectdb()
+const PORT = process.env.PORT || 3000;
+
+connectDb()
   .then(() => {
     console.log("✅ Database Connected Successfully...");
 
-    server.listen(3000, () => {
-        
+    server.listen(PORT, () => {
+      console.log(`🚀 Server running on port ${PORT}`);
     });
   })
   .catch(() => {
