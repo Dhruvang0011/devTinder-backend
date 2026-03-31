@@ -9,7 +9,7 @@ This is the **backend API** of DevTinder — responsible for authentication, use
 Base URL:
 
 ```
-[https://your-backend-url.onrender.com](https://devtinder-backend-dgi8.onrender.com)
+https://devtinder-backend-dgi8.onrender.com
 ```
 
 ---
