@@ -59,17 +59,6 @@ CLIENT_URL=http://localhost:5173
 
 ---
 
-## 📡 API Endpoints (Examples)
-
-| Method | Endpoint           | Description    |
-| ------ | ------------------ | -------------- |
-| POST   | /api/auth/register | Register user  |
-| POST   | /api/auth/login    | Login user     |
-| GET    | /api/users         | Get all users  |
-| GET    | /api/chat          | Fetch messages |
-
----
-
 ## 🏗️ Architecture
 
 * Express handles API routes
