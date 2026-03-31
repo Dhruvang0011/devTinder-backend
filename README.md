@@ -11,7 +11,7 @@ The backend handles **authentication, user management, and real-time communicati
 Base URL:
 
 ```text
-https://your-backend-url.onrender.com
+https://devtinder-backend-dgi8.onrender.com
 ```
 
 ---
@@ -58,7 +58,7 @@ src
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/devTinder-backend.git
+git clone https://github.com/Dhruvang0011/devTinder-backend.git
 cd devTinder-backend
 ```
 
@@ -98,18 +98,6 @@ npm run dev
 
 ---
 
-## 📡 API Endpoints (Examples)
-
-| Method | Endpoint           | Description         |
-| ------ | ------------------ | ------------------- |
-| POST   | /api/auth/register | Register user       |
-| POST   | /api/auth/login    | Login user          |
-| GET    | /api/users         | Get all users       |
-| GET    | /api/profile       | Get user profile    |
-| GET    | /api/chat          | Fetch chat messages |
-
----
-
 ## 🔐 Authentication
 
 * Uses **JWT tokens** for secure authentication
@@ -131,7 +119,7 @@ The backend allows requests from:
 
 ```text
 http://localhost:5173
-https://your-frontend-url.vercel.app
+https://get-devtinder.vercel.app
 ```
 
 ---
